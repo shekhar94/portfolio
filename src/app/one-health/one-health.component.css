@@ -1,0 +1,89 @@
+.viewport-height-width {
+    /*width: 100%;*/
+    height: 100vh;
+}
+
+.one-health-first-page {
+    background-image: url(../../assets/img/onehealth/main-bottom.png), url(../../assets/img/onehealth/page-1.png), url(../../assets/img/onehealth/group-24.png);
+    background-position: left bottom, 90% 140%, center;
+    background-repeat: repeat-x, no-repeat, repeat-x;
+    padding: 15px;
+    padding-left: 100px;
+    background-color: #f4f4f4;
+}
+
+.main-page-font {
+    font-size: 60px;
+    max-width: 1030px;
+    color: #d80058;
+    margin: 175px 0 0 0;
+}
+
+label {
+    font-weight: normal;
+}
+
+.tag-label {
+    color: #d80058;
+    padding: 2px 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #d80058;
+}
+
+.set-top-margin20 {
+    margin-top: 20px;
+}
+
+.header-tag {
+    color: grey;
+    font-size: 20px;
+}
+
+.header-value {
+    color: #000000;
+    opacity: 0.8;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.challange-role-container {
+    background-color: pink;
+}
+
+.content-header-2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #d80058;
+}
+
+.content-header-3 {
+    font-weight: normal;
+}
+
+.one-health-main-page .challange-role-content {
+    font-size: 30px;
+    color: #383838;
+}
+
+.set-half-height {
+    height: 50%;
+}
+
+.launch-event-container {
+    max-width: 633px;
+    padding: 50px 50px 50px 20px;
+    height: 100%;
+}
+
+.launch-event {
+    border-bottom: solid 6px #d80058;
+    background-image: url(../../assets/img/onehealth/female-single.png);
+    background-position: 100% -170%;
+    background-repeat: no-repeat;
+}
+
+.margin-auto {
+    margin: auto;
+    float: none;
+}
