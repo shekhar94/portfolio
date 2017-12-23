@@ -1,0 +1,22 @@
+<nav class="navbar navbar-toggleable-md navbar-light">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" [ngClass]="{'active':activeTab === 'work'}" (click)="onTabClick('work')" routerLink="/work">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [ngClass]="{'active':activeTab === 'about'}" (click)="onTabClick('about')" routerLink="/about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [ngClass]="{'active':activeTab === 'contact'}" (click)="onTabClick('contact')" routerLink="/contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [ngClass]="{'active':activeTab === 'blog'}" (click)="onTabClick('blog')" routerLink="/blog">Blog</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<router-outlet></router-outlet>
