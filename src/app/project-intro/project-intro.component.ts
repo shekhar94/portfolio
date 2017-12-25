@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Project } from '../project';
+import { ProjectsService } from '../projects.service';
 
 @Component({
   selector: 'app-project-intro',
@@ -8,4 +9,8 @@ import { Project } from '../project';
 })
 export class ProjectIntroComponent  {
   @Input() project: Project;
+  constructor(private projectsService: ProjectsService) {}
+  onProjectClick(header) {
+    this.projectsService.setHeader(header);
+  }
 }

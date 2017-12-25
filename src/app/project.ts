@@ -10,6 +10,11 @@ export class Project {
         description: string,
         tags: string,
         button: string,
-        info: string
+        info: string,
+        header: {
+            headerBg: string,
+            headerColor: string,
+        }
     };
+    router: string;
 }

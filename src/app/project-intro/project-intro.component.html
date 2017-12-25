@@ -1,4 +1,4 @@
-<div class="container-fluid row project-info-container" (click)="onTabClick('work')" routerLink="/work/onehealth">
+<div class="container-fluid row project-info-container" (click)="onProjectClick(project.style.header)" routerLink="/work/{{project.router}}">
     <div class="col-md-6 pr-img" *ngIf="project.contentPos === 'right'"></div>
     <div class="col-md-6">
         <div class="{{project.style.description}} margin-b-26">

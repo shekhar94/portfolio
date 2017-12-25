@@ -11,6 +11,7 @@ import { BlogComponent } from './blog/blog.component';
 import { OneHealthComponent } from './one-health/one-health.component';
 import { ProjectIntroComponent } from './project-intro/project-intro.component';
 import { ProjectsService } from './projects.service';
+import { EhrComponent } from './ehr/ehr.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProjectsService } from './projects.service';
     ContactComponent,
     BlogComponent,
     OneHealthComponent,
-    ProjectIntroComponent
+    ProjectIntroComponent,
+    EhrComponent
   ],
   imports: [
     BrowserModule,
