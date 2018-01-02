@@ -1,6 +1,6 @@
 .viewport-height-width {
     /*width: 100%;*/
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .one-health-first-page {
@@ -79,11 +79,42 @@ label {
 .launch-event {
     border-bottom: solid 6px #d80058;
     background-image: url(../../assets/img/onehealth/female-single.png);
-    background-position: 100% -170%;
+    background-position: 100% 170%;
     background-repeat: no-repeat;
 }
 
 .margin-auto {
     margin: auto;
     float: none;
+}
+.float-left {
+    float: left;
+}
+.flow-chart-height {
+    /*height: 72vh;*/
+}
+.flow-container-top-padding {
+    padding-bottom: 50px;
+}
+.top-content-padding {
+    padding-top: 50px;
+}
+.taskflow-height-width {
+    /*height: 130vh;*/
+}
+.font-mm-size {
+    font-size: 24px;
+}
+.emergency-card-padding {
+    padding-top: 40px;
+}
+.inline-block {
+    display: inline-block;
+    margin: 10px 0;
+}
+.text-center-align {
+    text-align: center;
+}
+.footer-text {
+     color: #666666;
 }

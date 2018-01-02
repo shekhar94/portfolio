@@ -1,0 +1,16 @@
+<div class="container-fluid row project-info-container" (click)="onProjectClick(project.style.header)" routerLink="/work/{{project.router}}">
+    <div class="col-md-6 pr-img" *ngIf="project.contentPos === 'right'"></div>
+    <div class="col-md-6">
+        <div class="{{project.style.description}} margin-b-26">
+            {{project.projectDescription}}
+        </div>
+        <div class="{{project.style.tags}} margin-b-26">
+            <button class="{{project.style.button}} margin-r-10" *ngFor="let tag of project.tags">{{tag}}</button>
+        </div>
+        <div class="{{project.style.info}} project-info">
+            <div class="pi-des">Project:<span class="margin-l-5">{{project.projectInfo.project}}</span></div>
+            <div class="pi-client">Client:<span class="margin-l-5">{{project.projectInfo.client}}</span></div>
+        </div>
+    </div>
+    <div class="col-md-6 pr-img" *ngIf="project.contentPos === 'left'"></div>
+</div>

@@ -1,0 +1,64 @@
+.margin-b-26 {
+    margin-bottom: 26px;
+}
+
+.margin-r-10 {
+    margin-right: 10px;
+}
+
+.margin-l-5 {
+    margin-left: 5px;
+}
+
+.pt-btn {
+    border-radius: 4px;
+    background: none;
+    border-width: 1px;
+    border-image-slice: 1;
+    font-size: 14px;
+}
+
+.project-info {
+    font-size: 20px;
+    color: #9a9a9a;
+}
+
+.pr-img {
+    background-image: linear-gradient(62deg, #027dd7, #7100ce);
+    opacity: 0.2;
+}
+
+.project-des {
+    font-size: 40px;
+}
+
+.pr-des-1 {
+    color: #7100ce;
+}
+
+.pr-des-2 {
+    color: #ce003b;
+}
+
+.pr-des-3 {
+    color: #67c014;
+}
+
+.pr-des-4 {
+    color: #0009ff;
+}
+
+.pt-btn-1 {
+    border-image-source: linear-gradient(76deg, #027dd7, #7100ce);
+    color: #7100ce;
+}
+
+.pt-btn-2 {
+    border-image-source: linear-gradient(291deg, #ce003b, #e70dd6);
+    color: #ce003b;
+}
+
+.pt-btn-3 {
+    border-image-source: linear-gradient(90deg, #02bed7 0%, #00cea8);
+    color: #00cea8;
+}
